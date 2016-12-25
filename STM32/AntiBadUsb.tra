@@ -1,0 +1,28 @@
+*** Creating Trace Output File 'AntiBadUsb.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_stm32f030x6.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"led.o"'
+### List of Objects: adding '"usart.o"'
+### List of Objects: adding '"key.o"'
+### List of Objects: adding '"global.o"'
+### List of Objects: adding '"stm32f0xx_gpio.o"'
+### List of Objects: adding '"stm32f0xx_rcc.o"'
+### List of Objects: adding '"stm32f0xx_usart.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 "startup_stm32f030x6.o" "main.o" "led.o" "usart.o" "key.o" "global.o" "stm32f0xx_gpio.o" "stm32f0xx_rcc.o" "stm32f0xx_usart.o" 
+--strict --scatter "AntiBadUsb.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\AntiBadUsb.map" -o AntiBadUsb.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'AntiBadUsb.axf'
+### ADS-LD Command File: 'AntiBadUsb.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'AntiBadUsb.lnp', Handle=0x00000198
+### Writing '.lnp' file
+### ADS-LD Command file 'AntiBadUsb.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,5 @@
+--cpu Cortex-M0 "startup_stm32f030x6.o" "main.o" "led.o" "usart.o" "key.o" "global.o" "stm32f0xx_gpio.o" "stm32f0xx_rcc.o" "stm32f0xx_usart.o" 
+--strict --scatter "AntiBadUsb.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\AntiBadUsb.map" -o AntiBadUsb.axf
